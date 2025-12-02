@@ -27,7 +27,7 @@ const Index = () => {
   ];
 
   return (
-    <main className="relative min-h-screen h-screen overflow-hidden flex flex-col items-center justify-center px-6">
+    <main className="relative min-h-dvh h-auto flex flex-col items-center justify-center px-6">
       {/* Background effects */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Gradient orbs */}
@@ -46,7 +46,7 @@ const Index = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-4xl mx-auto text-center">
+      <div className="mt-8 relative z-10 max-w-4xl mx-auto text-center">
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 mb-8 opacity-0 animate-fade-in">
           <Sparkles className="w-4 h-4 text-primary" />
